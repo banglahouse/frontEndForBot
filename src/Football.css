@@ -1,0 +1,43 @@
+.football-home{
+    background-color: #fbfcfb;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem; */
+}
+.head-button{
+    margin-top: 2rem
+}
+
+.container-websites{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: solid 2px black;
+    /* border-color: ; */
+    padding: 1rem;
+    background-color: white;   
+     
+
+}
+
+
+input[type=checkbox] {
+    display: none;
+ }
+ 
+ input:checked + .container-websites:before {
+    content: "✓ ";
+    
+ }
+input:checked + .container-websites:after {
+    background-color:  green;
+    color: green;
+ }
+ .button-delete{
+    width: 5rem;
+ }
